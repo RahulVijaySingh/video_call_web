@@ -6,7 +6,9 @@ const SocketContext = createContext();
 
 
 // add the server link here
-const socket = io('http://localhost:5000');
+// const socket = io('http://localhost:5000');
+const socket = io('https://video-call-web-app.onrender.com');
+
 
 
 const ContextProvider = ({ children }) => {
